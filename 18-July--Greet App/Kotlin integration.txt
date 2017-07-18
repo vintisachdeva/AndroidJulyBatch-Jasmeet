@@ -1,0 +1,4 @@
+File--> Settings--> Plugins--> Browse Repositories--> Kotlin Language--> Install
+
+
+step-1: Downcast--> widget attach kotlin file
