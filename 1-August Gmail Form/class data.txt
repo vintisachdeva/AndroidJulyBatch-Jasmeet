@@ -1,0 +1,12 @@
+app icon/ app name/ app theme/ activities list/ package name/--> android manifest
+
+java--> backend code
+
+res--> front code--> images, themes, style, text file or .mp3
+
+
+Spinner--> Container--> data hold--> array
+
+Angry Button Maker:
+
+http://angrytools.com/android/button/
