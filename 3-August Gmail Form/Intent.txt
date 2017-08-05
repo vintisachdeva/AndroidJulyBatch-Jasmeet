@@ -1,0 +1,19 @@
+
+Intent --> Predefined class in android
+
+switch from one activity to another, switch data or pass data from one activity to another, data pass or switch between applications, predefined services, bluetooth or wifi, etc
+
+2 types:
+
+--> Implicit intent(automatically)
+
+communication outside the application -->  use implicit intents
+
+--> Explicit intent(forcefully)
+
+communication inside the application -->  use explicit intents
+
+intent object hold--> source(CurrentActivityName) and destination(DestActivityName)
+
+
+startActivity()

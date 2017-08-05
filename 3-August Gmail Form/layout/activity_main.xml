@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/darker_gray">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.gmailform.MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        style="@style/FontStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="First"
+            android:layout_weight="1"
+            style="@style/EditTextStyle"
+            android:id="@+id/firstEditText"/>
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:hint="Last"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/lastEditText"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        style="@style/FontStyle"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/passwordEditText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose"
+        style="@style/FontStyle"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="10dp"
+        android:hint="@string/gmail"
+        android:textAlignment="viewEnd"
+        android:id="@+id/gmailEditText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"
+        style="@style/FontStyle"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Spinner
+            android:id="@+id/spinnerMonth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/month"
+            android:spinnerMode="dialog"
+            android:prompt="@string/month"
+            android:layout_weight="2"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/day"
+            style="@style/EditTextStyle"
+            android:layout_weight="1"
+            android:id="@+id/dayEditText"/>
+
+        <EditText
+            android:id="@+id/yearEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/year"
+            style="@style/EditTextStyle"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1.5"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_effect" />
+
+</LinearLayout>
+
+</ScrollView>
