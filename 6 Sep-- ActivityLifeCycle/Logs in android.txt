@@ -1,0 +1,51 @@
+Log--> Log helps developer to check the working of a program. app crash or system crash then we can check logs.
+
+
+Predefined class--> Log class
+--> different modes
+
+Modes of Log		Priority
+
+verbose			Minimum priority--(Low level info)
+debug			app run in debug mode
+info			information message			
+warning			warning 
+error			highest priority
+assert
+
+Log.a
+internal error of app
+external error of app--> developer logic/syntax need to be correct
+
+
+int value = 1;
+
+void input(){
+
+	value++;
+}
+
+void output(){
+
+
+	value++;
+}
+
+value++;
+
+
+
+if(value==4){
+
+
+
+}
+
+
+
+
+
+
+
+
+
