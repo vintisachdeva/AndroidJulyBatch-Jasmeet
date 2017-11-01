@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:background="@android:color/holo_green_light">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="6dp">
+
+        <ImageView
+            android:tag="0"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView1"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView2"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView3"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView4"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="6dp">
+
+        <ImageView
+            android:tag="4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView5"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="5"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView6"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="6"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView7"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="7"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView8"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="6dp">
+
+        <ImageView
+            android:tag="8"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView9"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="9"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView10"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="10"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView11"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="11"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView12"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:tag="12"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView13"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="13"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView14"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="14"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView15"
+            android:layout_marginRight="6dp"/>
+
+        <ImageView
+            android:tag="15"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/leaf"
+            android:background="@drawable/round_corners"
+            android:id="@+id/imageView16"/>
+
+    </TableRow>
+
+</TableLayout>
